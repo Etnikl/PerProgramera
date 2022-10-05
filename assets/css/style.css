@@ -1,0 +1,66 @@
+@font-face {
+    font-family: Lynstone;
+    src: url(../fonts/Lynstone/Lynstone/Lynstone.otf);
+}
+body {
+    font-family: 'Lynstone', Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    margin: 0;
+}
+#logovideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+.buttons{
+    /* display: none; */
+    overflow: hidden;
+    position: relative;
+    top: 600px;
+    width: 30%;
+    margin: 0 auto;
+    transition: ease-in-out;
+}
+.buttons a {
+    overflow: hidden;
+    display: none;
+    text-align: center;
+    text-decoration: none;
+    padding: 16px 65px;
+    margin: 0px;
+}
+.buttons a:first-child{
+    color: #385aa8;
+    float: left;
+    border-radius: 5px;
+    border: 3px solid;
+    border-color: #385aa8;
+}
+.buttons a:last-child{
+    color: #ff2364;
+    float: right;
+    border-radius: 5px;
+    border: 3px solid;
+    border-color: #ff2364;
+}
+.buttons a:hover {
+    color: azure;
+    background-color: #ff2364;
+    transition-duration: 20ms;
+    transition-timing-function: ease-in-out;
+    transition-delay: 5ms;
+}
+.buttons a:first-child:hover{
+    color: azure;
+    background-color: #385aa8;
+    transition-duration: 20ms;
+    transition-timing-function: ease-in-out;
+    transition-delay: 5ms;
+}
